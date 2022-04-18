@@ -10,7 +10,34 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Customview">
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.ProvinceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PointViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AnimatorSetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CircleViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MultilineTextViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SportViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.DashboardViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CameraViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AvatarViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

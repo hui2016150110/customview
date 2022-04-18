@@ -1,4 +1,4 @@
-package com.example.customview
+package com.example.customview.view
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -6,8 +6,9 @@ import android.graphics.BitmapFactory
 import android.graphics.Canvas
 import android.graphics.Paint
 import android.util.AttributeSet
-import android.util.Log
 import android.view.View
+import com.example.customview.R
+import com.example.customview.dp
 
 class MultilineTextView(context: Context, attributeSet: AttributeSet) :
     View(context, attributeSet) {

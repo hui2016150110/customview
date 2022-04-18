@@ -1,9 +1,11 @@
-package com.example.customview
+package com.example.customview.view
 
 import android.content.Context
 import android.graphics.*
 import android.util.AttributeSet
 import android.view.View
+import com.example.customview.R
+import com.example.customview.px
 
 class AvatarView(context:Context,attributeSet: AttributeSet):View(context,attributeSet) {
     val paint = Paint(Paint.ANTI_ALIAS_FLAG)
@@ -22,10 +24,10 @@ class AvatarView(context:Context,attributeSet: AttributeSet):View(context,attrib
     private fun getAvatar(width:Int):Bitmap{
         val options = BitmapFactory.Options()
         options.inJustDecodeBounds = true
-        BitmapFactory.decodeResource(resources,R.mipmap.avatar,options)
+        BitmapFactory.decodeResource(resources, R.mipmap.avatar,options)
         options.inJustDecodeBounds = false
         options.inDensity = options.outWidth
         options.inTargetDensity = width
-        return BitmapFactory.decodeResource(resources,R.mipmap.avatar,options)
+        return BitmapFactory.decodeResource(resources, R.mipmap.avatar,options)
     }
 }

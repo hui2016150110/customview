@@ -1,4 +1,4 @@
-package com.example.customview
+package com.example.customview.view
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -6,6 +6,8 @@ import android.content.res.TypedArray
 import android.graphics.*
 import android.util.AttributeSet
 import android.view.View
+import com.example.customview.R
+import com.example.customview.px
 import kotlin.math.cos
 import kotlin.math.sin
 
