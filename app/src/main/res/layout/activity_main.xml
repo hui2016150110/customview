@@ -12,79 +12,68 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="gotoAvatar"
-        android:text="圆形头像"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="圆形头像" />
 
     <Button
         android:id="@+id/dashboard_view_bt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="gotoDashboard"
-        android:text="表盘"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/avatar_view_bt" />
+        android:text="表盘" />
 
     <Button
         android:id="@+id/text_view_bt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="gotoSport"
-        android:text="文字测量"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/dashboard_view_bt" />
+        android:text="文字测量" />
 
     <Button
         android:id="@+id/multiline_text_view_bt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="gotoMultiline"
-        android:text="多行文字测量"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_view_bt" />
+        android:text="多行文字测量" />
 
     <Button
         android:id="@+id/camera_view_bt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="gotoCamera"
-        android:text="几何变换"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/multiline_text_view_bt" />
+        android:text="几何变换" />
 
     <Button
         android:id="@+id/circle_view_bt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="gotoCircle"
-        android:text="自定义圆形属性动画"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/camera_view_bt" />
+        android:text="自定义圆形属性动画" />
 
     <Button
         android:id="@+id/animator_set_bt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="gotoAnimatorSet"
-        android:text="自定义圆形属性动画集合"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/circle_view_bt" />
+        android:text="自定义圆形属性动画集合" />
 
     <Button
         android:id="@+id/point_animator_bt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="gotoPointAnimator"
-        android:text="点动画"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/animator_set_bt" />
+        android:text="点动画" />
 
     <Button
         android:id="@+id/string_animator_bt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="gotoStringAnimator"
-        android:text="字符串动画"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/point_animator_bt" />
+        android:text="字符串动画" />
+
+    <Button
+        android:id="@+id/string_custom_view_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="gotoCustomViewLayout"
+        android:text="自定义布局尺寸布局" />
 </LinearLayout>

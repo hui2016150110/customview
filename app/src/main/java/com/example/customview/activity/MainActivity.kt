@@ -60,4 +60,9 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
+    fun gotoCustomViewLayout(view:View) {
+        val intent = Intent(this, SquareImageViewActivity::class.java)
+        startActivity(intent)
+    }
+
 }
